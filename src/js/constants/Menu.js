@@ -1,8 +1,10 @@
+import CONFIG from './Config';
+
 // header
-export const MENU_HEADER = 'cobish.github.io';
+export const MENU_HEADER = CONFIG.owner + '.github.io';
 
 // 名称
-export const MENU_NAME = 'cobish';
+export const MENU_NAME = CONFIG.owner;
 
 // 菜单
 export const MENU_All = '全部';
